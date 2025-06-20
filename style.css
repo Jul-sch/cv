@@ -241,6 +241,7 @@ body {
 .langue > div {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  align-items: center;
 }
 
 .coldroite > p {
@@ -273,4 +274,10 @@ ul {
 li {
   list-style: none;
   padding: 10px 0;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 60%;
+  }
 }
