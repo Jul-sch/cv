@@ -15,12 +15,10 @@ h1 {
 
 h2 {
   color: white;
-  text-align: center;
 }
 
 h1 {
   padding: 10px;
-  text-align: center;
   font-size: 40px;
   margin: 0;
 }
@@ -65,12 +63,18 @@ h5 {
   justify-content: space-between;
 }
 
+.colvide {
+  width: 30%;
+  margin: 15px;
+  padding: 15px;
+}
 .colgauche {
-  width: 20%;
+  width: 30%;
   margin: 15px;
   padding: 15px;
   background: pink;
   margin-top: -50px;
+  text-align: center;
 }
 
 .coldroite {
@@ -82,6 +86,8 @@ h6 {
   background-color: pink;
   letter-spacing: 8px;
   font-size: +20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .langue {
@@ -89,7 +95,7 @@ h6 {
 }
 
 .colgauche > img {
-  transform: translateY(-30%);
+  margin-top: -100px;
 }
 
 .contact {
@@ -97,7 +103,8 @@ h6 {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .langue > div {
@@ -120,7 +127,7 @@ header a:hover {
   text-decoration: none;
 }
 hr {
-  width: 80%;
+  margin-right: 25px;
 }
 
 ul {
