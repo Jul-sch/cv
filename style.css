@@ -4,6 +4,11 @@
   font-variation-settings: "wdth" 100;
 }
 
+header {
+  background: rgb(73, 72, 73);
+  padding-bottom: 10px;
+}
+
 h1 {
   color: pink;
 }
@@ -14,7 +19,6 @@ h2 {
 }
 
 h1 {
-  background: rgb(73, 72, 73);
   padding: 10px;
   text-align: center;
   font-size: 40px;
@@ -22,7 +26,6 @@ h1 {
 }
 
 h2 {
-  background: rgb(73, 72, 73);
   padding: 10px;
   font-size: 18px;
   margin: 0;
@@ -111,4 +114,19 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+hr {
+  width: 80%;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  padding: 10px 0;
 }
